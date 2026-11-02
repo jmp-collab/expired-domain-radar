@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "domains": {
+    "3cmotor.com": {
+      "first_seen": "2026-11-02T14:03:51.891672+00:00",
+      "last_seen": "2026-11-02T14:03:51.891672+00:00"
+    },
+    "atlantaluxurymotorsgwinnett.com": {
+      "first_seen": "2026-11-02T14:03:51.891672+00:00",
+      "last_seen": "2026-11-02T14:03:51.891672+00:00"
+    },
+    "azmotorcoach.com": {
+      "first_seen": "2026-11-02T14:03:51.891672+00:00",
+      "last_seen": "2026-11-02T14:03:51.891672+00:00"
+    },
+    "blackhorsemotorcars.com": {
+      "first_seen": "2026-11-02T14:04:47.109420+00:00",
+      "last_seen": "2026-11-02T14:04:47.109420+00:00"
+    },
+    "cdacertimotosprado.com": {
+      "first_seen": "2026-11-02T14:04:47.109420+00:00",
+      "last_seen": "2026-11-02T14:04:47.109420+00:00"
+    },
+    "cfmotovannes.com": {
+      "first_seen": "2026-11-02T14:04:47.109420+00:00",
+      "last_seen": "2026-11-02T14:04:47.109420+00:00"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "moped-example.com": {
+    "reviewer": "REPLACE_WITH_REAL_REVIEWER",
+    "reviewed_at": "2000-01-01T00:00:00+00:00",
+    "notes": "EXAMPLE ONLY: document archive contents, trademark research, ownership context and link quality here.",
+    "history_years": [2000, 2001, 2002],
+    "content_clean": false,
+    "trademark_clear": false,
+    "topic_relevant": false,
+    "referring_pages": [
+      {
+        "url": "https://example.org/editorial-page",
+        "registrable_domain": "example.org",
+        "target_domain": "moped-example.com",
+        "editorial": false,
+        "verified_at": "2000-01-01T00:00:00+00:00",
+        "context": "EXAMPLE ONLY: describe actual link context and why this is an independent editorial citation."
+      }
+    ]
+  }
+}

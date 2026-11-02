@@ -1,0 +1,64 @@
+name: Expired Domain Radar
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Candidate source
+        type: choice
+        options: [feed, csv]
+        default: feed
+      notify:
+        description: Create issues only for new qualified candidates
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: domain-radar-state
+  cancel-in-progress: false
+jobs:
+  radar:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Collect and assess
+        env:
+          SOURCE: ${{ inputs.source || 'feed' }}
+          NOTIFY: ${{ github.event_name == 'schedule' || inputs.notify }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          args=(--source "$SOURCE" --limit 10)
+          if [ "$NOTIFY" = true ]; then args+=(--notify); fi
+          python3 radar.py "${args[@]}"
+          cat reports/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Persist deduplication state
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/radar.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: persist radar observation state'
+            gh auth setup-git
+            git push
+          fi
+      - name: Research reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: domain-radar-${{ github.run_id }}
+          path: reports/
+          retention-days: 7
+          if-no-files-found: ignore

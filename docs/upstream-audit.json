@@ -1,0 +1,191 @@
+{
+  "audited_at": "2026-11-02T14:03:51.757795+00:00",
+  "repositories": [
+    {
+      "repository": "arturseo-geo/mcp-common-crawl",
+      "url": "https://github.com/arturseo-geo/mcp-common-crawl",
+      "sha": "52187c33ea425e131683a319d8acfd60d89409c9",
+      "license_api": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "pushed_at": "2026-03-26T00:08:56Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "3a846ec4e61dfa4c327a49499af9ea8e3102584c",
+          "sha256": "7e47741c7f950cefdf65f03148b8c33ed910b596e5a7df4bb143202b3292b9dd",
+          "url": "https://github.com/arturseo-geo/mcp-common-crawl/blob/52187c33ea425e131683a319d8acfd60d89409c9/LICENSE"
+        },
+        {
+          "path": "index.js",
+          "blob_sha": "1d310b9a26d25a1f4315d9cf710d0421795d6981",
+          "sha256": "2f67d0686023d13672bf3a8a8ca44cacae277efc88238a6bc96b8163e3e05bb4",
+          "url": "https://github.com/arturseo-geo/mcp-common-crawl/blob/52187c33ea425e131683a319d8acfd60d89409c9/index.js"
+        },
+        {
+          "path": "package.json",
+          "blob_sha": "e07d4118515198cf33ccf54d47a722d5516c6647",
+          "sha256": "62282b951b87d8524ee7f2c8a0ff3518c2acfb783a827d00573ea66e138745f4",
+          "url": "https://github.com/arturseo-geo/mcp-common-crawl/blob/52187c33ea425e131683a319d8acfd60d89409c9/package.json"
+        }
+      ]
+    },
+    {
+      "repository": "WhiteBite/Domain-Hunter",
+      "url": "https://github.com/WhiteBite/Domain-Hunter",
+      "sha": "32e871e0c4c956ca4cc85f72e4e146c62a69e7b0",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-11-02T13:22:47Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "310037a80a635c959971fa37c10266500d9e6ea1",
+          "sha256": "3b9db355ff8904e0ea851756e31435b69e1504eb828f94fdfbc6b2b0d35c1b02",
+          "url": "https://github.com/WhiteBite/Domain-Hunter/blob/32e871e0c4c956ca4cc85f72e4e146c62a69e7b0/LICENSE"
+        },
+        {
+          "path": "src/core/rdap-client.ts",
+          "blob_sha": "a81c567a891001338a39e763c4cb7b6d78cf0763",
+          "sha256": "38f2ff8018b3dac46bb6cc6dac3ac4769ac56f0c49aa61f7e00657405e46e660",
+          "url": "https://github.com/WhiteBite/Domain-Hunter/blob/32e871e0c4c956ca4cc85f72e4e146c62a69e7b0/src/core/rdap-client.ts"
+        },
+        {
+          "path": "package.json",
+          "blob_sha": "cc5beb32fe8532a68cb45b1b179e976a7f2a2ece",
+          "sha256": "2bcd44529e22b0c8f3782b2f7f823f0fc2394834546363d0ed976ccfaef98c46",
+          "url": "https://github.com/WhiteBite/Domain-Hunter/blob/32e871e0c4c956ca4cc85f72e4e146c62a69e7b0/package.json"
+        }
+      ]
+    },
+    {
+      "repository": "WhoisFreaks/daily-expired-and-dropped-domains",
+      "url": "https://github.com/WhoisFreaks/daily-expired-and-dropped-domains",
+      "sha": "d82da2477db42a80bdb8c7189bd782a7c9bca823",
+      "license_api": null,
+      "pushed_at": "2026-11-02T01:03:02Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "README.md",
+          "blob_sha": "81e0376b10eadec372b9c4e70990aa25ad8da5a9",
+          "sha256": "fbe342e6a4a9c5116ef6bab184191090804f063c5b3cbaf214360be81bb547a8",
+          "url": "https://github.com/WhoisFreaks/daily-expired-and-dropped-domains/blob/d82da2477db42a80bdb8c7189bd782a7c9bca823/README.md"
+        }
+      ]
+    },
+    {
+      "repository": "lc/gau",
+      "url": "https://github.com/lc/gau",
+      "sha": "4eabace309877abb231def9eeb27b96c07ed3635",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-10-12T18:36:10Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "cec6e59e38b583cc8c23b4d95cb0689dec1c63d3",
+          "sha256": "39b184e042356911974010b649be826eaf989be07376c439eddc89514f6f8398",
+          "url": "https://github.com/lc/gau/blob/4eabace309877abb231def9eeb27b96c07ed3635/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "d878d4244e98434ba1ae7b0b99eddcd4388bab02",
+          "sha256": "79be8e563443c3baf7e2f128b319846e83995a7fbd2f7e58b839cbcb64cde2e3",
+          "url": "https://github.com/lc/gau/blob/4eabace309877abb231def9eeb27b96c07ed3635/README.md"
+        },
+        {
+          "path": "go.mod",
+          "blob_sha": "ad5fd81a80a4ceddb876607c8dc065da1f134d14",
+          "sha256": "982ee88fe43695f9572412857c36383bca91fa171521d9947fe9bbda717bcf90",
+          "url": "https://github.com/lc/gau/blob/4eabace309877abb231def9eeb27b96c07ed3635/go.mod"
+        }
+      ]
+    },
+    {
+      "repository": "Sambel/catchdoms-mcp",
+      "url": "https://github.com/Sambel/catchdoms-mcp",
+      "sha": "4841a4c55a77587559dca8574f5c74a038f6d86c",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-10-26T17:19:19Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "fec8ae19b32b38617c1c84d18a62a5d782e71f56",
+          "sha256": "a498f64a3bd0157aad063e32df6cf8ace716d5ff4ab076c0a304f56a83f059bb",
+          "url": "https://github.com/Sambel/catchdoms-mcp/blob/4841a4c55a77587559dca8574f5c74a038f6d86c/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "fb8f2b2fe6d21b1928ce815817f8bc5314c7c63d",
+          "sha256": "6e26a8cd5e3b997c96acd3aeae7800edc831804e714faa18e1fda031f2bd4e91",
+          "url": "https://github.com/Sambel/catchdoms-mcp/blob/4841a4c55a77587559dca8574f5c74a038f6d86c/README.md"
+        },
+        {
+          "path": "server.json",
+          "blob_sha": "90bf4aeb13ce39f1ef7da41b3b73afcffb01bee0",
+          "sha256": "85cc4d25772bd34fb788df5ba7776a32c7ddc9f36840f2d35bfead7147e0d0df",
+          "url": "https://github.com/Sambel/catchdoms-mcp/blob/4841a4c55a77587559dca8574f5c74a038f6d86c/server.json"
+        }
+      ]
+    },
+    {
+      "repository": "jedarden/domain-check",
+      "url": "https://github.com/jedarden/domain-check",
+      "sha": "1d48672cf586354a9888d3045066a211a71f3ea9",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-10-11T22:52:53Z",
+      "archived": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "acee0ace130869f8782ce157915c23ceb951cdd6",
+          "sha256": "0c2cfefb5bc95a89b532dd9581eeab8d76eea5d1f3ea16a01f828575ab73442a",
+          "url": "https://github.com/jedarden/domain-check/blob/1d48672cf586354a9888d3045066a211a71f3ea9/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "2b8420c62cccc0ab4f5833d6fef9f5081c567504",
+          "sha256": "ff4c94ad819c381b3375e183f01713d62802168ea0a3ada2deb3c67a0cdf9043",
+          "url": "https://github.com/jedarden/domain-check/blob/1d48672cf586354a9888d3045066a211a71f3ea9/README.md"
+        },
+        {
+          "path": "go.mod",
+          "blob_sha": "fa006bb08c099bd9d1b3aaec7bfc65647707d1de",
+          "sha256": "21c935cf89e1017c6b12332ffc4ebd9c844f63213b18c21e3badbb0c653aef7a",
+          "url": "https://github.com/jedarden/domain-check/blob/1d48672cf586354a9888d3045066a211a71f3ea9/go.mod"
+        }
+      ]
+    }
+  ]
+}
